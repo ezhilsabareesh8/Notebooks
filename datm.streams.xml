@@ -2,8 +2,8 @@
 <file id="stream" version="2.0">
   <metadata>
     <File_type>DATM xml file provides forcing data</File_type>
-    <date_generated>2025-06-18 09:15:29</date_generated>
-    <history>Created by ek4684 (ezhilsabareesh8) on 2025-06-18, using https://github.com/ezhilsabareesh8/Notebooks/blob/51951270095f65eb8810ca03c7d30b31c83924c0generate_xml_datm.py: generate_xml_datm.py 1940 2025</history>
+    <date_generated>2025-06-18 09:37:31</date_generated>
+    <history>Created by ek4684 (ezhilsabareesh8) on 2025-06-18, using https://github.com/ezhilsabareesh8/Notebooks/blob/36bec0306226c6c9af5fd28511f64b3fc30c4fc3generate_xml_datm.py: generate_xml_datm.py 1940 2024</history>
   </metadata>
   <stream_info name="ERA5.PRSN">
     <taxmode>limit</taxmode>
@@ -11,7 +11,7 @@
     <mapalgo>bilinear</mapalgo>
     <dtlimit>1.5</dtlimit>
     <year_first>1940</year_first>
-    <year_last>2025</year_last>
+    <year_last>2024</year_last>
     <year_align>1940</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/ERA5-datm-ESMFmesh.nc</meshfile>
@@ -1037,18 +1037,6 @@
       <file>/g/data/rt52/era5/single-levels/reanalysis/mlssr/2024/mlssr_era5_oper_sfc_20241001-20241031.nc</file>
       <file>/g/data/rt52/era5/single-levels/reanalysis/mlssr/2024/mlssr_era5_oper_sfc_20241101-20241130.nc</file>
       <file>/g/data/rt52/era5/single-levels/reanalysis/mlssr/2024/mlssr_era5_oper_sfc_20241201-20241231.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mlssr/2025/mlssr_era5_oper_sfc_20250101-20250131.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mlssr/2025/mlssr_era5_oper_sfc_20250201-20250228.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mlssr/2025/mlssr_era5_oper_sfc_20250301-20250331.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mlssr/2025/mlssr_era5_oper_sfc_20250401-20250430.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mlssr/2025/mlssr_era5_oper_sfc_20250501-20250531.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mlssr/2025/mlssr_era5_oper_sfc_20250601-20250630.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mlssr/2025/mlssr_era5_oper_sfc_20250701-20250731.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mlssr/2025/mlssr_era5_oper_sfc_20250801-20250831.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mlssr/2025/mlssr_era5_oper_sfc_20250901-20250930.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mlssr/2025/mlssr_era5_oper_sfc_20251001-20251031.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mlssr/2025/mlssr_era5_oper_sfc_20251101-20251130.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mlssr/2025/mlssr_era5_oper_sfc_20251201-20251231.nc</file>
     </datafiles>
     <datavars>
       <var>mlssr  Faxa_prsn</var>
@@ -1061,7 +1049,7 @@
     <mapalgo>bilinear</mapalgo>
     <dtlimit>1.5</dtlimit>
     <year_first>1940</year_first>
-    <year_last>2025</year_last>
+    <year_last>2024</year_last>
     <year_align>1940</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/ERA5-datm-ESMFmesh.nc</meshfile>
@@ -2087,18 +2075,6 @@
       <file>/g/data/rt52/era5/single-levels/reanalysis/mcpr/2024/mcpr_era5_oper_sfc_20241001-20241031.nc</file>
       <file>/g/data/rt52/era5/single-levels/reanalysis/mcpr/2024/mcpr_era5_oper_sfc_20241101-20241130.nc</file>
       <file>/g/data/rt52/era5/single-levels/reanalysis/mcpr/2024/mcpr_era5_oper_sfc_20241201-20241231.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mcpr/2025/mcpr_era5_oper_sfc_20250101-20250131.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mcpr/2025/mcpr_era5_oper_sfc_20250201-20250228.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mcpr/2025/mcpr_era5_oper_sfc_20250301-20250331.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mcpr/2025/mcpr_era5_oper_sfc_20250401-20250430.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mcpr/2025/mcpr_era5_oper_sfc_20250501-20250531.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mcpr/2025/mcpr_era5_oper_sfc_20250601-20250630.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mcpr/2025/mcpr_era5_oper_sfc_20250701-20250731.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mcpr/2025/mcpr_era5_oper_sfc_20250801-20250831.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mcpr/2025/mcpr_era5_oper_sfc_20250901-20250930.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mcpr/2025/mcpr_era5_oper_sfc_20251001-20251031.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mcpr/2025/mcpr_era5_oper_sfc_20251101-20251130.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/mcpr/2025/mcpr_era5_oper_sfc_20251201-20251231.nc</file>
     </datafiles>
     <datavars>
       <var>mcpr  Faxa_prrn</var>
@@ -2111,7 +2087,7 @@
     <mapalgo>bilinear</mapalgo>
     <dtlimit>1.5</dtlimit>
     <year_first>1940</year_first>
-    <year_last>2025</year_last>
+    <year_last>2024</year_last>
     <year_align>1940</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/ERA5-datm-ESMFmesh.nc</meshfile>
@@ -3137,18 +3113,6 @@
       <file>/g/data/rt52/era5/single-levels/reanalysis/strd/2024/strd_era5_oper_sfc_20241001-20241031.nc</file>
       <file>/g/data/rt52/era5/single-levels/reanalysis/strd/2024/strd_era5_oper_sfc_20241101-20241130.nc</file>
       <file>/g/data/rt52/era5/single-levels/reanalysis/strd/2024/strd_era5_oper_sfc_20241201-20241231.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/strd/2025/strd_era5_oper_sfc_20250101-20250131.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/strd/2025/strd_era5_oper_sfc_20250201-20250228.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/strd/2025/strd_era5_oper_sfc_20250301-20250331.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/strd/2025/strd_era5_oper_sfc_20250401-20250430.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/strd/2025/strd_era5_oper_sfc_20250501-20250531.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/strd/2025/strd_era5_oper_sfc_20250601-20250630.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/strd/2025/strd_era5_oper_sfc_20250701-20250731.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/strd/2025/strd_era5_oper_sfc_20250801-20250831.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/strd/2025/strd_era5_oper_sfc_20250901-20250930.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/strd/2025/strd_era5_oper_sfc_20251001-20251031.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/strd/2025/strd_era5_oper_sfc_20251101-20251130.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/strd/2025/strd_era5_oper_sfc_20251201-20251231.nc</file>
     </datafiles>
     <datavars>
       <var>strd  Faxa_lwdn</var>
@@ -3161,7 +3125,7 @@
     <mapalgo>bilinear</mapalgo>
     <dtlimit>1.5</dtlimit>
     <year_first>1940</year_first>
-    <year_last>2025</year_last>
+    <year_last>2024</year_last>
     <year_align>1940</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/ERA5-datm-ESMFmesh.nc</meshfile>
@@ -4187,18 +4151,6 @@
       <file>/g/data/rt52/era5/single-levels/reanalysis/msdrswrf/2024/msdrswrf_era5_oper_sfc_20241001-20241031.nc</file>
       <file>/g/data/rt52/era5/single-levels/reanalysis/msdrswrf/2024/msdrswrf_era5_oper_sfc_20241101-20241130.nc</file>
       <file>/g/data/rt52/era5/single-levels/reanalysis/msdrswrf/2024/msdrswrf_era5_oper_sfc_20241201-20241231.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msdrswrf/2025/msdrswrf_era5_oper_sfc_20250101-20250131.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msdrswrf/2025/msdrswrf_era5_oper_sfc_20250201-20250228.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msdrswrf/2025/msdrswrf_era5_oper_sfc_20250301-20250331.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msdrswrf/2025/msdrswrf_era5_oper_sfc_20250401-20250430.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msdrswrf/2025/msdrswrf_era5_oper_sfc_20250501-20250531.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msdrswrf/2025/msdrswrf_era5_oper_sfc_20250601-20250630.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msdrswrf/2025/msdrswrf_era5_oper_sfc_20250701-20250731.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msdrswrf/2025/msdrswrf_era5_oper_sfc_20250801-20250831.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msdrswrf/2025/msdrswrf_era5_oper_sfc_20250901-20250930.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msdrswrf/2025/msdrswrf_era5_oper_sfc_20251001-20251031.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msdrswrf/2025/msdrswrf_era5_oper_sfc_20251101-20251130.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msdrswrf/2025/msdrswrf_era5_oper_sfc_20251201-20251231.nc</file>
     </datafiles>
     <datavars>
       <var>msdrswrf  Faxa_swdn</var>
@@ -4211,7 +4163,7 @@
     <mapalgo>bilinear</mapalgo>
     <dtlimit>1.5</dtlimit>
     <year_first>1940</year_first>
-    <year_last>2025</year_last>
+    <year_last>2024</year_last>
     <year_align>1940</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/ERA5-datm-ESMFmesh.nc</meshfile>
@@ -5237,18 +5189,6 @@
       <file>/g/data/rt52/era5/single-levels/reanalysis/q_10/2024/q_10_era5_oper_sfc_20241001-20241031.nc</file>
       <file>/g/data/rt52/era5/single-levels/reanalysis/q_10/2024/q_10_era5_oper_sfc_20241101-20241130.nc</file>
       <file>/g/data/rt52/era5/single-levels/reanalysis/q_10/2024/q_10_era5_oper_sfc_20241201-20241231.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/q_10/2025/q_10_era5_oper_sfc_20250101-20250131.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/q_10/2025/q_10_era5_oper_sfc_20250201-20250228.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/q_10/2025/q_10_era5_oper_sfc_20250301-20250331.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/q_10/2025/q_10_era5_oper_sfc_20250401-20250430.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/q_10/2025/q_10_era5_oper_sfc_20250501-20250531.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/q_10/2025/q_10_era5_oper_sfc_20250601-20250630.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/q_10/2025/q_10_era5_oper_sfc_20250701-20250731.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/q_10/2025/q_10_era5_oper_sfc_20250801-20250831.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/q_10/2025/q_10_era5_oper_sfc_20250901-20250930.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/q_10/2025/q_10_era5_oper_sfc_20251001-20251031.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/q_10/2025/q_10_era5_oper_sfc_20251101-20251130.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/q_10/2025/q_10_era5_oper_sfc_20251201-20251231.nc</file>
     </datafiles>
     <datavars>
       <var>q_10  Faxa_q_10</var>
@@ -5261,7 +5201,7 @@
     <mapalgo>bilinear</mapalgo>
     <dtlimit>1.5</dtlimit>
     <year_first>1940</year_first>
-    <year_last>2025</year_last>
+    <year_last>2024</year_last>
     <year_align>1940</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/ERA5-datm-ESMFmesh.nc</meshfile>
@@ -6287,18 +6227,6 @@
       <file>/g/data/rt52/era5/single-levels/reanalysis/msl/2024/msl_era5_oper_sfc_20241001-20241031.nc</file>
       <file>/g/data/rt52/era5/single-levels/reanalysis/msl/2024/msl_era5_oper_sfc_20241101-20241130.nc</file>
       <file>/g/data/rt52/era5/single-levels/reanalysis/msl/2024/msl_era5_oper_sfc_20241201-20241231.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msl/2025/msl_era5_oper_sfc_20250101-20250131.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msl/2025/msl_era5_oper_sfc_20250201-20250228.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msl/2025/msl_era5_oper_sfc_20250301-20250331.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msl/2025/msl_era5_oper_sfc_20250401-20250430.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msl/2025/msl_era5_oper_sfc_20250501-20250531.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msl/2025/msl_era5_oper_sfc_20250601-20250630.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msl/2025/msl_era5_oper_sfc_20250701-20250731.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msl/2025/msl_era5_oper_sfc_20250801-20250831.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msl/2025/msl_era5_oper_sfc_20250901-20250930.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msl/2025/msl_era5_oper_sfc_20251001-20251031.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msl/2025/msl_era5_oper_sfc_20251101-20251130.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/msl/2025/msl_era5_oper_sfc_20251201-20251231.nc</file>
     </datafiles>
     <datavars>
       <var>msl  Sa_pslv</var>
@@ -6311,7 +6239,7 @@
     <mapalgo>bilinear</mapalgo>
     <dtlimit>1.5</dtlimit>
     <year_first>1940</year_first>
-    <year_last>2025</year_last>
+    <year_last>2024</year_last>
     <year_align>1940</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/ERA5-datm-ESMFmesh.nc</meshfile>
@@ -7337,18 +7265,6 @@
       <file>/g/data/rt52/era5/single-levels/reanalysis/t2m/2024/t2m_era5_oper_sfc_20241001-20241031.nc</file>
       <file>/g/data/rt52/era5/single-levels/reanalysis/t2m/2024/t2m_era5_oper_sfc_20241101-20241130.nc</file>
       <file>/g/data/rt52/era5/single-levels/reanalysis/t2m/2024/t2m_era5_oper_sfc_20241201-20241231.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/t2m/2025/t2m_era5_oper_sfc_20250101-20250131.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/t2m/2025/t2m_era5_oper_sfc_20250201-20250228.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/t2m/2025/t2m_era5_oper_sfc_20250301-20250331.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/t2m/2025/t2m_era5_oper_sfc_20250401-20250430.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/t2m/2025/t2m_era5_oper_sfc_20250501-20250531.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/t2m/2025/t2m_era5_oper_sfc_20250601-20250630.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/t2m/2025/t2m_era5_oper_sfc_20250701-20250731.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/t2m/2025/t2m_era5_oper_sfc_20250801-20250831.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/t2m/2025/t2m_era5_oper_sfc_20250901-20250930.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/t2m/2025/t2m_era5_oper_sfc_20251001-20251031.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/t2m/2025/t2m_era5_oper_sfc_20251101-20251130.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/t2m/2025/t2m_era5_oper_sfc_20251201-20251231.nc</file>
     </datafiles>
     <datavars>
       <var>t2m  Sa_t2m</var>
@@ -7361,7 +7277,7 @@
     <mapalgo>bilinear</mapalgo>
     <dtlimit>1.5</dtlimit>
     <year_first>1940</year_first>
-    <year_last>2025</year_last>
+    <year_last>2024</year_last>
     <year_align>1940</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/ERA5-datm-ESMFmesh.nc</meshfile>
@@ -8387,18 +8303,6 @@
       <file>/g/data/rt52/era5/single-levels/reanalysis/u10/2024/u10_era5_oper_sfc_20241001-20241031.nc</file>
       <file>/g/data/rt52/era5/single-levels/reanalysis/u10/2024/u10_era5_oper_sfc_20241101-20241130.nc</file>
       <file>/g/data/rt52/era5/single-levels/reanalysis/u10/2024/u10_era5_oper_sfc_20241201-20241231.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/u10/2025/u10_era5_oper_sfc_20250101-20250131.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/u10/2025/u10_era5_oper_sfc_20250201-20250228.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/u10/2025/u10_era5_oper_sfc_20250301-20250331.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/u10/2025/u10_era5_oper_sfc_20250401-20250430.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/u10/2025/u10_era5_oper_sfc_20250501-20250531.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/u10/2025/u10_era5_oper_sfc_20250601-20250630.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/u10/2025/u10_era5_oper_sfc_20250701-20250731.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/u10/2025/u10_era5_oper_sfc_20250801-20250831.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/u10/2025/u10_era5_oper_sfc_20250901-20250930.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/u10/2025/u10_era5_oper_sfc_20251001-20251031.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/u10/2025/u10_era5_oper_sfc_20251101-20251130.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/u10/2025/u10_era5_oper_sfc_20251201-20251231.nc</file>
     </datafiles>
     <datavars>
       <var>u10  Sa_u10m</var>
@@ -8411,7 +8315,7 @@
     <mapalgo>bilinear</mapalgo>
     <dtlimit>1.5</dtlimit>
     <year_first>1940</year_first>
-    <year_last>2025</year_last>
+    <year_last>2024</year_last>
     <year_align>1940</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/ERA5-datm-ESMFmesh.nc</meshfile>
@@ -9437,18 +9341,6 @@
       <file>/g/data/rt52/era5/single-levels/reanalysis/v10/2024/v10_era5_oper_sfc_20241001-20241031.nc</file>
       <file>/g/data/rt52/era5/single-levels/reanalysis/v10/2024/v10_era5_oper_sfc_20241101-20241130.nc</file>
       <file>/g/data/rt52/era5/single-levels/reanalysis/v10/2024/v10_era5_oper_sfc_20241201-20241231.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/v10/2025/v10_era5_oper_sfc_20250101-20250131.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/v10/2025/v10_era5_oper_sfc_20250201-20250228.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/v10/2025/v10_era5_oper_sfc_20250301-20250331.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/v10/2025/v10_era5_oper_sfc_20250401-20250430.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/v10/2025/v10_era5_oper_sfc_20250501-20250531.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/v10/2025/v10_era5_oper_sfc_20250601-20250630.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/v10/2025/v10_era5_oper_sfc_20250701-20250731.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/v10/2025/v10_era5_oper_sfc_20250801-20250831.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/v10/2025/v10_era5_oper_sfc_20250901-20250930.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/v10/2025/v10_era5_oper_sfc_20251001-20251031.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/v10/2025/v10_era5_oper_sfc_20251101-20251130.nc</file>
-      <file>/g/data/rt52/era5/single-levels/reanalysis/v10/2025/v10_era5_oper_sfc_20251201-20251231.nc</file>
     </datafiles>
     <datavars>
       <var>v10  Sa_v10m</var>
