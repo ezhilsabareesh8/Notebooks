@@ -19,8 +19,8 @@ from datetime import datetime
 from pathlib import Path
 import calendar 
 
-path_root = Path(__file__).parent.parent
-sys.path.append(str(path_root))
+#path_root = Path(__file__).parent.parent
+#sys.path.append(str(path_root))
 
 from scripts_common import get_provenance_metadata
 
@@ -71,7 +71,7 @@ var_names = {
     "ERA5.PRSN": ("mlssr", "Faxa_prsn"),
     "ERA5.PRRN": ("mcpr", "Faxa_prrn"),
     "ERA5.LWDN": ("strd", "Faxa_lwdn"),
-    "ERA5.SWDN": ("msdrswf", "Faxa_swdn"),
+    "ERA5.SWDN": ("msdrswrf", "Faxa_swdn"),
     "ERA5.SLP_10": ("msl", "Sa_pslv"),
     "ERA5.T_10": ("t2m", "Sa_t2m"),
     "ERA5.U_10": ("u10", "Sa_u10m"),
