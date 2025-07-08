@@ -60,7 +60,6 @@ stream_info_names = [
     "ERA5.PRRN",
     "ERA5.LWDN",
     "ERA5.SWDN",
-    "ERA5.Q_10",
     "ERA5.SLP_10",
     "ERA5.T_10",
     "ERA5.U_10",
@@ -84,10 +83,10 @@ for stream_name in stream_info_names:
     if year_first == year_last:
         SubElement(stream_info, "taxmode").text = "cycle"
     else:
-        SubElement(stream_info, "taxmode").text = "limit"
+        SubElement(stream_info, "taxmode").text = "extend"
     SubElement(stream_info, "readmode").text = "single"
     SubElement(stream_info, "mapalgo").text = "bilinear"
-    SubElement(stream_info, "dtlimit").text = "1.5"
+    SubElement(stream_info, "dtlimit").text = "1.e30"
     SubElement(stream_info, "year_first").text = str(year_first)
     SubElement(stream_info, "year_last").text = str(year_last)
     SubElement(stream_info, "year_align").text = str(year_align)
@@ -114,6 +113,16 @@ for stream_name in stream_info_names:
     else:
         SubElement(stream_info, "tintalgo").text = "linear"
 
+    # Special case handling for t2m -> directory and filename prefix should be '2t'
+    if var_name_parts[0] == 't2m':
+        era5_prefix = '2t'
+    elif var_name_parts[0] == 'u10':
+        era5_prefix = '10u'
+    elif var_name_parts[0] == 'v10':
+        era5_prefix = '10v'
+    else:
+        era5_prefix = var_name_parts[0]
+
     for year in range(year_first, year_last + 1):
         if year_first == year_last:
             file_element = SubElement(datafiles, "file")
@@ -124,7 +133,7 @@ for stream_name in stream_info_names:
             for month in range(1, 13):  # Loop through months (January to December)
                 days_in_month = calendar.monthrange(year, month)[1]  # Get the number of days in the month
                 file_element = SubElement(datafiles, "file")
-                file_element.text = f"/g/data/rt52/era5/single-levels/reanalysis/{var_name_parts[0]}/{year}/{var_name_parts[0]}_era5_oper_sfc_{year}{month:02d}01-{year}{month:02d}{days_in_month}.nc"
+                file_element.text = f"/g/data/rt52/era5/single-levels/reanalysis/{era5_prefix}/{year}/{era5_prefix}_era5_oper_sfc_{year}{month:02d}01-{year}{month:02d}{days_in_month}.nc"
 # Convert the XML to a nicely formatted string
 xml_str = minidom.parseString(tostring(root)).toprettyxml(indent="  ")
 
