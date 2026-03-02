@@ -2,8 +2,8 @@
 <file id="stream" version="2.0">
   <metadata>
     <File_type>DATM xml file provides forcing data</File_type>
-    <date_generated>2026-02-23 13:52:55</date_generated>
-    <history>Created by ek4684 (ezhilsabareesh8) on 2026-02-23, using https://github.com/ezhilsabareesh8/Notebooks/blob/6614c4538396bc287858c6ba2a6f192ec09d0557/generate_xml_datm_era.py: /g/data/tm70/ek4684/ezhil_notebooks/generate_xml_datm_era.py 1940 2024</history>
+    <date_generated>2026-03-02 14:32:32</date_generated>
+    <history>Created by ek4684 (ezhilsabareesh8) on 2026-03-02, using https://github.com/ezhilsabareesh8/Notebooks/blob/17c25ff9b3764201afc9287aeafb54f13eb213f2generate_xml_datm_era.py: generate_xml_datm_era.py 1940 2024</history>
   </metadata>
   <stream_info name="ERA5.PRSN">
     <taxmode>extend</taxmode>
@@ -5192,6 +5192,7 @@
     </datafiles>
     <datavars>
       <var>msl  Sa_pslv</var>
+      <var>msl  Sa_pbot</var>
     </datavars>
     <tintalgo>linear</tintalgo>
   </stream_info>
@@ -6230,6 +6231,8 @@
     </datafiles>
     <datavars>
       <var>t2m  Sa_t2m</var>
+      <var>t2m  Sa_tbot</var>
+      <var>t2m  Sa_tdew</var>
     </datavars>
     <tintalgo>linear</tintalgo>
   </stream_info>
