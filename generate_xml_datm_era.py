@@ -35,14 +35,26 @@ STREAM_SPECS = [
     ("ERA5.SWDN", "msdrswrf", [("msdrswrf", "Faxa_swdn")], "coszen"),
     (
         "ERA5.SLP_10",
+        "sp",
+        [("sp", "Sa_pslv")],
+        "linear",
+    ),
+    (
+        "ERA5.SLP_10",
         "msl",
-        [("msl", "Sa_pslv"), ("msl", "Sa_pbot")],
+        [("msl", "Sa_pbot")],
         "linear",
     ),
     (
         "ERA5.T_10",
         "2t",
-        [("t2m", "Sa_t2m"), ("t2m", "Sa_tbot"), ("t2m", "Sa_tdew")],
+        [("t2m", "Sa_t2m"), ("t2m", "Sa_tbot")],
+        "linear",
+    ),
+    (
+        "ERA5.TDEW",
+        "2d",
+        [("d2m", "Sa_tdew")],
         "linear",
     ),
     ("ERA5.U_10", "10u", [("u10", "Sa_u"), ("u10", "Sa_u10m")], "linear"),
